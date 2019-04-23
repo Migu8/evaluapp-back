@@ -14,7 +14,7 @@ const employeeSchema = new Schema({
   profilePic: String,
   role:{
     type:String,
-    enum: ['Employee', 'Admin'],
+    enum: ['Employee', 'Admin', 'Evaluador', 'Administrador'],
     default: 'Employee'
   }, 
   area:{
